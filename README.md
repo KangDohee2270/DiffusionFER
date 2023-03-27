@@ -2,7 +2,7 @@
 A open source repository for DiffusionFER database.
 
 
-## Dataset Description
+### Dataset Description
 
 - **Homepage:** [DiffusionFER homepage](https://kdhht2334.github.io/)
 - **Repository:** [DiffusionFER repository](https://github.com/kdhht2334/Facial-Expression-Recognition-Zoo)
@@ -45,7 +45,9 @@ git clone https://huggingface.co/datasets/FER-Universe/DiffusionFER
 
 ### Pre-trained model
 
-You can easily download and use pre-trained __Transformer__ model with the DiffusionFER dataset.
+You can easily download and use pre-trained __Swin Transformer__ model with the `Diffusion_Emotion_S` dataset.
+
+Later, Transformer models with the `Diffusion_Emotion_M` or `Diffusion_Emotion_L` will be released.
 
 ```python
 from transformers import AutoFeatureExtractor, AutoModelForImageClassification
@@ -113,7 +115,7 @@ We provide DiffusionFER using a modular file structure. `DiffusionEmotion_S`, th
 ```
 
 
-### Prompt Engineering
+### Prompt Format
 
 Basic format is as follows: "`Emotion`, `Race` `Age` style, a realistic portrait of `Style` `Gender`, upper body, `Others`".
 
