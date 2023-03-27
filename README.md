@@ -66,18 +66,6 @@ git clone https://huggingface.co/kdhht2334/autotrain-diffusion-emotion-facial-ex
   - Quick links: [huggingface model documentation](https://huggingface.co/docs/transformers/main/en/model_doc/swin#transformers.SwinForImageClassification)
 
 
-### Sample Gallery
-
-▼Happy
-
-![Gallery(happy)](https://drive.google.com/uc?id=10YW9XHXFJ9cjutis9Pwpgd0ld6JI84P3)
-
-
-▼Angry
-
-![Gallery(happy)](https://drive.google.com/uc?id=14qbmOgzqqXGxkatjMfqaUmf0xYwDz--g)
-
-
 ### Subsets
 
 DiffusionFER supports a total of three distinct splits. And, each split additionally provides a face region cropped by [face detector](https://github.com/timesler/facenet-pytorch).
@@ -125,7 +113,7 @@ We provide DiffusionFER using a modular file structure. `DiffusionEmotion_S`, th
 ```
 
 
-### Prompt Format
+### Prompt Engineering
 
 Basic format is as follows: "`Emotion`, `Race` `Age` style, a realistic portrait of `Style` `Gender`, upper body, `Others`".
 
