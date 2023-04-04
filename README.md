@@ -104,12 +104,12 @@ We provide DiffusionFER using a modular file structure. `DiffusionEmotion_S`, th
 └── dataset_sheet.csv
 ```
 
-```bash
+```
 # Medium version of DB
 (ongoing)
 ```
 
-```bash
+```
 # Large version of DB
 (ongoing)
 ```
