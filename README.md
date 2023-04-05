@@ -29,7 +29,9 @@ In addition, the virtual subjects included in this dataset provide opportunities
 
 ### Quick Start
 
-Gentle introduction for running StableDiffusion is the tutorial on Google Colab here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Uk_k9C5wRta8xcJunhV-b_7gPuFkZMDo?usp=share_link)
+Gentle introduction to generate data using `StableDiffusion` is the tutorial on Google Colab here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Uk_k9C5wRta8xcJunhV-b_7gPuFkZMDo?usp=share_link)
+
+  - Choosing different types of `StableDiffusion` can be possible [here](https://github.com/camenduru/stable-diffusion-webui-colab).
 
 
 ### Data Loading
