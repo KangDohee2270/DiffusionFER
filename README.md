@@ -27,6 +27,10 @@ This DiffusionFER dataset can be utilized for the following downstream tasks.
 In addition, the virtual subjects included in this dataset provide opportunities to perform various vision tasks related to face privacy.
 
 
+### Quick Start
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+
 ### Data Loading
 
 DiffusionFER can be loaded via both Python and Git. Please refer Hugging Face [`Datasets`](https://huggingface.co/docs/datasets/quickstart).
