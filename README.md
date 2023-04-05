@@ -28,7 +28,8 @@ In addition, the virtual subjects included in this dataset provide opportunities
 
 
 ### Quick Start
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+Gentle introduction for running StableDiffusion is the tutorial on Google Colab here: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/kdhht2334/DiffusionFER/blob/main/notebook/DiffusionFER_with_ChilloutMix.ipynb)
 
 
 ### Data Loading
