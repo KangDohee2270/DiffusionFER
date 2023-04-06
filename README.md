@@ -126,7 +126,7 @@ We provide DiffusionFER using a modular file structure. `DiffusionEmotion_S`, th
 
 Basic format is as follows: "`Emotion`, `Race` `Age` style, a realistic portrait of `Style` `Gender`, upper body, `Others`".
 
-- ex) neutral emotion, white middle-aged style, a realistic portrait of man, upper body
+- ex) one person, neutral emotion, white middle-aged style, a realistic portrait of man, upper body
 
 Examples of format categories are listed in the table below.
 
@@ -146,7 +146,7 @@ You can improve the performance and quality of generating default prompts with t
    
 ```
 {
-  "negative prompt": "sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, age spot, (outdoor:1.6), manboobs, backlight, (ugly:1.331), (duplicate:1.331), (morbid:1.21), (mutilated:1.21), mutated hands, (poorly drawn hands:1.331), (bad anatomy:1.21), (bad proportions:1.331), extra limbs, (disfigured:1.331), (more than 2 nipples:1.331), (missing arms:1.331), (extra legs:1.331), (fused fingers:1.61051), (too many fingers:1.61051), (unclear eyes:1.331), bad hands, missing fingers, extra digit, (futa:1.1)",
+  "negative prompt": "sketches, (worst quality:2), (low quality:2), (normal quality:2), lowres, normal quality, ((monochrome)), ((grayscale)), skin spots, acnes, skin blemishes, backlight, (duplicate:1.331), (morbid:1.21), (mutilated:1.21), mutated hands, (poorly drawn hands:1.331), (bad anatomy:1.21), (bad proportions:1.331), extra limbs, (disfigured:1.331), (missing arms:1.331), (extra legs:1.331), (fused fingers:1.61051), (too many fingers:1.61051), (unclear eyes:1.331), bad hands, missing fingers, extra digit",
   "steps": 50,
   "sampling method": "DPM++ 2M Karras"
   "Width": "512",
